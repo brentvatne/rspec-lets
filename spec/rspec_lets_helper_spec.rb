@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe RSpecLetsHelper do
+describe RSpecLets::Helper do
   context 'simple lazy lets' do
     lets(foo: -> { 'bar' },
          hello: -> { 'world'})
