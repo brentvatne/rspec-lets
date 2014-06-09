@@ -18,10 +18,10 @@ In your `spec_helper` add:
 
 ```ruby
 # At the top of the file
-require 'rspec_lets_helper'
+require 'rspec-lets/helper'
 
 # In the config block
-config.include RSpecLetsHelper
+config.extend RSpecLets::Helper
 ```
 
 In your specs, instead of writing:
