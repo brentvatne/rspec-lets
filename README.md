@@ -11,7 +11,7 @@ helper methods in the same declarative way!
 Add this to your Rails Gemfile:
 
 ```ruby
-gem 'rspec-lets'
+gem 'rspec-lets', group: :test
 ```
 
 In your `spec_helper` add:
