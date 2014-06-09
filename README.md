@@ -34,8 +34,8 @@ let(:user)  { create(:user)  }
 You can now write:
 
 ```ruby
-lets(admin: -> { create(:admin),
-     user:  -> { create(:user))
+lets(admin: -> { create(:admin) },
+     user:  -> { create(:user) })
 ```
 
 Or alternatively:
