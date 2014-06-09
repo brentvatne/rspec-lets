@@ -41,7 +41,7 @@ lets(admin: -> { create(:admin),
 Or alternatively:
 ```ruby
 lets([:admin, :user] =>
-     ->(key) { create(:key) })
+     ->(i, key) { create(key) })
 ```
 
 The same syntax applies for `lets!`.
