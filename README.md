@@ -1,7 +1,7 @@
 rspec-lets
 ====================
 
-`lets` and `lets` as an alternate syntax for `let` and `let!` that allow
+`lets` and `lets!` as an alternate syntax for `let` and `let!` that allow
 you to define multiple variables within one call, for cleaner
 definitions of test variables. As a bonus, you also get `help` to define
 helper methods in the same declarative way!
