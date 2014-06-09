@@ -8,7 +8,7 @@ helper methods in the same declarative way!
 
 ## Usage
 
-Add this to your Rails Gemfile:
+Add this to your Gemfile:
 
 ```ruby
 gem 'rspec-lets', group: :test
