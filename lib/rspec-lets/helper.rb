@@ -1,4 +1,8 @@
-require 'active_support/core_ext/array/wrap'
+begin
+  require 'active_support/core_ext/array/wrap'
+rescue LoadError
+  require 'active_support/core_ext/array/wrapper'
+end
 
 module RSpecLets
   module Helper
